@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100vh; /* Altura total da página */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+}
+
+/* Wrap centralizado */
+.wrap {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border: 2px solid #333;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid #df3434; /* Borda do cabeçalho */
+}
+
+/* Logotipo */
+.logo {
+    background-color: #df3434;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Botões de navegação */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+button {
+    background-color: transparent;
+    border: 2px solid #df3434; /* Contorno dos botões */
+    color: #333;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+

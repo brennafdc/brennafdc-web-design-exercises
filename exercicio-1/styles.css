@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100vh; /* Altura total da página */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+}
+
+/* Wrap centralizado */
+.wrap {
+    width: 80%;                /* Ocupa 80% da largura disponível */
+    max-width: 1200px;          /* Limite de largura máxima */
+    padding: 20px;
+    background-color: #fff;     /* Fundo branco */
+    border: 2px solid #333;     /* Borda preta para tornar visível */
+}
